@@ -1,0 +1,13 @@
+.btn-success {
+  @include border(3px, solid, $correct-green);
+}
+
+.btn-danger {
+  @include border(3px, solid, $wrong-red);
+  background-color: $wrong-red;
+
+  &:disabled {
+    background-color: $wrong-red;
+    @include border(3px, solid, $wrong-red);
+  }
+}

@@ -1,0 +1,17 @@
+.feedback-container {
+  align-items: center;
+  width: 50vw;
+
+  button {
+    margin: 10px;
+    width: 200px;
+  }
+
+  .low-assertions {
+    color: $wrong-red;
+  }
+
+  .high-assertions {
+    color: $correct-green;
+  }
+}
